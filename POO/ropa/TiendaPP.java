@@ -10,7 +10,7 @@ public class Tienda{
 		String ty;
 		double pre;
 
-		System.out.println("Que tipo de prenda sera? (blusa, camisa, camiseta etc ) " );		
+		System.out.println("Que tipo de prenda sera? (blusa, camisa, camiseta, pantalon, short etc ) " );		
 		blusa.setTipo( ty = in.nextLine());
 		String elTipo = blusa.getTipo();
 
@@ -36,7 +36,7 @@ public class Tienda{
 		System.out.println();
 
 		System.out.println("Tu " + elTipo + " es de color " + laPrenda);
-		System.out.println("Con un tamaño " + elTamaño + " y un precio de " + elPrecio);
+		System.out.println("Con un tamaño " + elTamaño + " y un precio de " + elPrecio+"MXN$");
 		
 	}
 }
